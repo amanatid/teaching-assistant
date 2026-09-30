@@ -52,7 +52,7 @@ Ask concise questions when something is unclear or a good question could surface
 
 For local file changes, end with a plain-text URL using ${pathToFileURL(`${workspacePath}/`).href}; avoid Markdown links, localhost, /workspace, relative paths, and static-file servers.
 `,
-  model: 'openai/gpt-5.6-terra',
+  model: 'gpt-4o-mini',
   defaultOptions: {
     maxSteps: 100,
     autoResumeSuspendedTools: true,
